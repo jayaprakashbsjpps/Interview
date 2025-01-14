@@ -1,0 +1,30 @@
+Features of Java 8
+Benefits of using streams in java
+Could you please explain the performance of parallel stream in java 8
+Introduction of defaut methods in java 8
+How default changed inheritance in java 8
+how do we handle checked exceptions in java 8 and java
+Difference between external and internal iteration in java 8
+
+OOPS concept
+Composition and Inheritance in java
+Dynamic dispatch in java
+Polymorphism in java
+Instance of operator in java
+Purpose of above operator in java
+Purpose of clone method in java
+Interface relation in java part of solid principle
+
+Data Structures
+Self balancing tree
+Self balancing binary search tree
+How to implement self(strict) balancing binary search tree in java
+Have you heard about AVL tree or Red black tree
+Purpose of LinkedHashMap in java
+
+Arrays
+How to efficiently merge two sorted arrays in java
+
+Coding part
+Filter out employees who are younger than 30 and sort remaining employess by there names
+and collect sorted employees into a list
