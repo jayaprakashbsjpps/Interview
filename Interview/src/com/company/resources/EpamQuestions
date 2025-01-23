@@ -36,6 +36,7 @@ What types of constrainsts do you know in mssql?
 
 I have 2 table with same structure city and country 
 I want to combine the data using union and union all
+Here he gave an example of city and Country table to check union and union all
 what is the difference between them?
 
 Difference between where and having in sql?
