@@ -80,6 +80,8 @@ Which interfaces in java extends Collection?
 
 Can we store null in hashset?
 
+Time complexity of adding elements into TreeSet
+
 Implement a Java 8 method to find the number of movies of each director where Movie starts
 with letter J
 
@@ -104,3 +106,5 @@ public class Director {
 	
 
 }
+
+
