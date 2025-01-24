@@ -1,0 +1,46 @@
+1. B-Trees vs LSM Trees: https://lnkd.in/gvNmyeUK
+
+2. Database Replication: https://lnkd.in/gCS8Ydbk
+
+3. SQL vs NoSQL databases: https://lnkd.in/g6ACc2hV
+
+4. Consistent Hashing: https://lnkd.in/gHHrnahN
+
+5. Cache Writing Policies: https://lnkd.in/gYJ5shjK
+
+6. Cache Eviction Policies: https://lnkd.in/ggeNgDCd
+
+7. Content Delivery Network (CDN): https://lnkd.in/g9YBHC4s
+
+8. Batch Processing vs Stream Processing: https://lnkd.in/g36_q-S8
+
+9. Long Polling vs WebSockets vs Server-Sent Events: https://lnkd.in/gkzXuKrJ
+
+10. Search Index and ElasticSearch: https://lnkd.in/gW4FUuru
+
+System Design Questions
+Top 10 System Design problems: 
+1. URL shortener or TinyURL:
+	https://www.educative.io/courses/grokking-the-system-design-interview/system-design-tinyurl
+
+2. Social media app like Twitter:
+	https://github.com/karanpratapsingh/system-design#twitter
+3. File sharing service like Dropbox: 
+	https://systemdesignprimer.com/dropbox-system-design/
+	
+4. Video streaming service like Netflix: 
+	https://github.com/karanpratapsingh/system-design#netflix
+
+5. Autocomplete feature of Google:
+	https://www.enjoyalgorithms.com/blog/design-typeahead-system
+
+6. Messaging app like WhatsApp: 
+	https://github.com/karanpratapsingh/system-design#whatsapp
+7. Online document editor like Google Docs: 
+		https://www.enjoyalgorithms.com/blog/design-google-docs
+8. Proximity service like Uber:
+	https://github.com/karanpratapsingh/system-design#uber
+9. Hotel booking service like Airbnb: 
+	https://www.nexsoftsys.com/articles/how-to-design-backend-system-of-an-online-hotel-booking-app-using-java.html
+10. Web crawler: https://www.enjoyalgorithms.com/blog/...
+	https://www.enjoyalgorithms.com/blog/web-crawler
