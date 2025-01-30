@@ -1,0 +1,21 @@
+ List<String> list = Arrays.asList("Apple","Orange","Apple","Banana");
+
+list.stream().distinct().collect(Collectors.toList());
+
+List<Integer> list = Arrays.asList(5,3,8,9,4,2);
+
+//list.stream().sorted(Comparator.reversing()).limit(3);
+
+ list.stream().collect(Collectors.grouping(n->n),partitioning(n->n%2==0?"even","odd"))
+
+
+ <a [ng-model] = "click"
+
+
+   @Input name
+   @Output result
+
+   select top 1 salary from Employee where salary <(select max(salary) from Employee)
+   order by salary desc
+
+   select salary from Employee group by salary having count(salary) > 1;
