@@ -7,3 +7,62 @@ Latest features in Java?
 CompletableFuture in Java?
 Have you ever called rest api from Spring boot application
 in async manner?
+In spring boot can you please explain 
+@Qualifier annotation?
+Can you tell me what is request param and path variable?
+Can you please explain me Transactional annotation?
+
+What is Transactional propagation?Explain
+
+If I have 3 tables to update. I can go for @Transactional annotation
+end of that transaction I have another call to rest api and
+you have to tolerate when rest api is down or sending some 
+exceptions you should still tolerate we should still store 
+values to database?In this case how you will configure.
+
+Above question clear:-
+Great question — and this is a very common real-world scenario. You want to make sure that:
+
+✅ Database updates for 3 tables are done atomically (all or none).
+
+✅ You call an external REST API after committing the DB changes.
+
+✅ If the API call fails, you do NOT roll back the database changes.
+
+🧠 The Problem
+By default, if you put the API call 
+inside a @Transactional method, and 
+that call throws an exception, Spring will roll back the entire transaction — including your database inserts/updates.
+ That’s not what you want here.
+
+Have you used JPA repository?Can you tell me some of
+the available methods?Default methods?
+May I know the return type of findById?
+
+In Angular can you explain what is event emitter?
+
+Let's consider a page on top we have a form and at bottom
+we have list. Which will show what already submitted.
+Let's consider there is 5 data already submitted and displayed 
+at the bottom of the list .If we go and fill the form and
+submit the record it will be 6th record it will go the backend
+and store it in the database but immediately how angular will
+know 6th entry.How will it immediately display 6th entry
+into the table.
+
+What is material style in Angular?
+
+Can you tell me one syntax?Suppose we have JSON it is ES6.
+You have JSON it has first name,Last name.
+You need to capture firstName Last Name from JSON using ES6.
+You need to get firstName from JSON and store it into another 
+variable called firstName and lastName to another variable 
+called lastName.In order to achieve in old way JSON will be 
+stored in some other variable.ES6 it is different how?
+
+explained above question below:-
+
+Great question! You're asking about how 
+to extract data from a JSON object using ES6, 
+specifically destructuring, which is a cleaner 
+and more elegant way compared to the old-school approach.
