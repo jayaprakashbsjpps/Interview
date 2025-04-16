@@ -66,3 +66,51 @@ Great question! You're asking about how
 to extract data from a JSON object using ES6, 
 specifically destructuring, which is a cleaner 
 and more elegant way compared to the old-school approach.
+
+Sort the Hashmap as per value in Desc order 
+HashMap<EmpName, EmpSalary>
+
+
+map.stream().collect(Collectors.grouping(i->i,)
+
+
+Find the each unique char and its no. of occurances in the given string. 
+String str = "aaaabbbccdaab" 
+ex. a=6, b=4, c=2, d=1
+
+str.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(Function.identity,Collectors.counting()));
+
+
+select item_id,date,slot date from table group by item_id having count(*)=1 order by date desc 
+
+select top 1 * from Employee where salary <(
+select max(salary) from Employee)
+
+ 
+item_id	date	slot
+A	2022-03-01	S1
+B	2022-03-01	S1
+C	2022-03-01	S1
+D	2022-25-01	S2
+A	2022-20-01	S3
+C	2022-11-02	S2
+D	2022-06-04	S4
+A	2022-10-05	S4
+B	2022-16-03	S5
+B	2022-22-04	S1
+A	2022-19-05	S2
+C	2022-21-05	S1
+ 
+ 
+ 
+Find out the latest slot for each item.
+	 
+Output	 	 
+ 	 	 
+item_id	date	slot
+A	2022-19-05	S2
+B	2022-22-04	S1
+C	2022-21-05	S1
+D	2022-06-04	S4
+ 
+ 
